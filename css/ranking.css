@@ -1,0 +1,539 @@
+    *{
+        margin:0px;
+        padding:0px;
+        list-style-type: none;
+    }
+    body{
+        color: #222;
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color:#00a1d6;
+    }
+    .rank_nav{
+        width:1160px;
+        heigth:40px;
+        margin:0 auto;
+    }
+    .rank_nav ul{
+        margin-left:107px;
+        overflow: hidden;
+    }
+    .rank_nav li{
+        float:left;
+        width:140px;
+        height:40px;
+        margin-left:52px;
+        text-align: center;
+        background: white;
+        cursor:pointer;
+        box-sizing: border-box;
+    }
+    .rank_nav .current{
+        border-bottom: 2px solid #00a1d6;
+    }
+    .rank_nav li:nth-of-type(1){
+        margin-left: 0px;
+    }
+    .rank_nav i{
+        display: inline-block;
+        width:30px;
+        height:30px;
+    }
+    .rank_nav_pic1{
+        position: relative;
+        left: -5px;
+        top: 10px;
+        background: url('../images/icons.png') no-repeat -83px -979px;
+    }
+    .rank_nav_pic2{
+        position: relative;
+        left: -5px;
+        top: 10px;
+        background: url('../images/icons.png') no-repeat -83px -1041px;
+    }
+    .rank_nav_pic3{
+        position: relative;
+        left: -5px;
+        top: 10px;
+        background: url('../images/icons.png') no-repeat -83px -1107px;
+    }
+    .rank_nav_pic4{
+        position: relative;
+        left: -5px;
+        top: 10px;
+        background: url('../images/icons.png') no-repeat -146px -1555px;
+    }
+    .rank_nav_pic5{
+        position: relative;
+        left: -5px;
+        top: 10px;
+        background: url('../images/icons.png') no-repeat -83px -1170px;
+    }
+    .rank_current{
+        display:none;
+    }
+    section{
+        width:1160px;
+        margin:0 auto;
+        height:1120px;
+    }
+
+    .rank_con_one{
+        width:1160px;
+        height:40px;
+        background: #edf2f9;
+    }
+    .rank_con_one .top{
+        overflow: hidden;
+        margin-left:10px;
+    }
+    .rank_con_one .top li{
+        height:40px;
+        float:left;
+        margin-right:30px;
+        text-align: center;
+        line-height:40px;
+        cursor:pointer;
+    }
+    .rank_con_one .right{
+        float:right;
+        width:182px;
+        height:35px;
+        position: relative;
+        right: 0px;
+        top: -38px;
+    }
+    .right_one{
+        float:left;
+        position: relative;
+    }
+    .right_two{
+        float:right;
+        position: relative;
+        right:10px;
+
+    }
+    .rank_con_one .right i{
+        display:inline-block;
+        width:12px;
+        height:6px;
+        background:url('../images/icons.png') no-repeat -475px -157px;
+    }
+    .rank_con_one .right span{
+        width:80px;
+        height:30px;
+        font-size:12px;
+        line-height:30px;
+        padding-left:8px;
+        background: #fff;
+        box-sizing: border-box;
+        display: inline-block;
+        border-radius: 3px;
+        cursor:pointer;
+        border:1px solid #edf2f9;
+    }
+    .right_one_op{
+         font-size:12px;
+         position:absolute;
+         width:100%;
+         border-radius: 3px;
+         background: white;
+         padding-left:8px;
+         box-sizing: border-box;
+         right:0px;
+         top:0px;
+         border:1px solid #edf2f9;
+         cursor:pointer;
+         display:none;
+
+     }
+    .right_one_op li{
+        width:80px;
+        height:30px;
+        line-height:30px;
+    }
+    .right_one_tp{
+        font-size:12px;
+        position:absolute;
+        width:100%;
+        border-radius: 3px;
+        background: white;
+        padding-left:8px;
+        box-sizing: border-box;
+        right:0px;
+        top:0px;
+        border:1px solid #edf2f9;
+        cursor:pointer;
+        display:none;
+    }
+    .right_one_tp li{
+        width:80px;
+        height:30px;
+        line-height:30px;
+    }
+    .rank_con_list{
+        height:60px;
+        padding-top:15px;
+        padding-bottom:15px;
+        box-sizing: border-box;
+    }
+    .rank_con_list i{
+        display:inline-block;
+        width:16px;
+        height:16px;
+        position: relative;
+        left:10px;
+        vertical-align: middle;
+        background:url('../images/rankpic/icons.png') no-repeat -52px -27px;
+    }
+    .rank_con_list p{
+        line-height:30px;
+        font-size:12px;
+        background:#edf2f9;
+    }
+    .rank_con_list span{
+        position: relative;
+        left:20px;
+    }
+    .rank_con_item{
+        width:1160px;
+        /*height:110px;*/
+        padding-top:20px;
+        box-sizing: border-box;
+        border:1px solid transparent;
+        border-bottom: 1px solid #edf2f9;
+        /*overflow: hidden;*/
+    }
+    .num{
+        float:left;
+        font-size:36px;
+        width:70px;
+        height:70px;
+        text-align:center;
+        line-height:70px;
+        color:#b8c0cc;
+    }
+    .rank_con_item_info{
+        width:1160px;
+        height:90px;
+        position:relative;
+    }
+    .rank_con_item_info img{
+        position:relative;
+        float:left;
+        z-index: 999;
+    }
+    .rank_con_item_pic{
+        position:relative;
+        left: -26px;
+        top: 8px;
+        display:none;
+    }
+    .rank_con_item_left{
+        position:relative;
+        left:15px;
+        top:0px;
+    }
+    .rank_con_item_left a{
+        color:black;
+        display:inline-block
+    }
+    .rank_con_item_left a:hover{
+        color:#00a1d6;
+    }
+    .rank_con_item_left p{
+        font-size:12px;
+        color:#b8c0cc;
+        position: relative;
+        top:23px;
+    }
+    .rank_con_item_left span{
+        display:inline-block;
+        padding-right:15px;
+    }
+    .rank_con_item_left i{
+        display:inline-block;
+        width:12px;
+        height: 12px;
+        background:url('../images/icons.png') no-repeat -282px -218px;
+    }
+
+    .rank_con_item_left em{
+        display:inline-block;
+        width:12px;
+        height: 12px;
+        background:url('../images/icons.png') no-repeat -282px -154px;
+    }
+    .rank_con_item_right{
+        position:absolute;
+        right:25px;
+        bottom:45px;
+        color:#00a1d6;
+        font-size:18px;
+    }
+    .rank_con_item_bottom{
+        position:absolute;
+        right:36px;
+        bottom:15px;
+        color:#b8c0cc;
+        font-size:12px;
+    }
+    .as{
+        display:none;
+    }
+    .rank_con_two{
+        width:1160px;
+        height:40px;
+        background: #edf2f9;
+        display:none;
+    }
+    .rank_con_two .top{
+        overflow: hidden;
+        margin-left:10px;
+    }
+    .rank_con_two .top li{
+        height:40px;
+        float:left;
+        margin-right:30px;
+        text-align: center;
+        line-height:40px;
+        cursor:pointer;
+    }
+    .rank_con_two .right{
+        float:right;
+        width:182px;
+        height:35px;
+        position: relative;
+        right: 0px;
+        top: -38px;
+    }
+    .rank_con_two .right span {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+        padding-left: 8px;
+        background: #fff;
+        box-sizing: border-box;
+        display: inline-block;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 1px solid #edf2f9;
+    }
+    .ran_con_li{
+        color:#00a1d6;
+    }
+    .rank_con_item_1{
+        overflow:visible;
+    }
+
+    .rank_con_item3 {
+        vertical-align:middle;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background:url('../images/rankpic/bangumi-zf-icon.png') no-repeat;
+    }
+
+    footer{
+        width:100%;
+        background:#f6f9fa;
+        padding-top:20px;
+    }
+
+    .foot{
+        width:1160px;
+        height:322px;
+        margin: 0 auto;
+    }
+    .foot_top{
+        width:1160px;
+        height:112px;
+        margin-bottom:30px;
+    }
+    .foot_top li{
+        float:left;
+        height:112px;
+    }
+    .foot_top li:nth-of-type(1){
+        width:420px;
+    // margin-right:10px;
+        border-right: 1px solid #ddd;
+    }
+    .foot_top li:nth-of-type(2){
+        width:400px;
+        margin-left:20px;
+        border-right: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    .foot_top li:nth-of-type(3){
+        width:310px;
+        padding-left:30px;
+        box-sizing: border-box;
+    }
+    footer a{
+        color:black;
+        cursor:pointer;
+    }
+    footer a:link{
+        text-decoration:none;
+    }
+    footer a:hover{
+        color:#00b5e5;
+
+    }
+    .foot_top .tip{
+        width:420px;
+        margin-bottom:20px;
+    }
+
+    .foot_top .cards{
+        width:120px;
+        height:30px;
+        float:left;
+    }
+    .iphone{
+        width:82px;
+        height:80px;
+        position:relative;
+        float:left;
+    }
+    .iphone .ph{
+        width:60px;
+        height:60px;
+        background:url('../images/icons.png') no-repeat -1024px -194px;
+    }
+    .iphone p{
+        position:absolute;
+        bottom:-8px;
+        left:-8px;
+    }
+    .bg {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background: white;
+        left: -27px;
+        top: -105px;
+        border: 1px solid #ddd;
+        padding:10px;
+        box-sizing: border-box;
+        display:none;
+    }
+    .bc{
+        float:left;
+        width: 212px;
+        height: 120px;
+        position: absolute;
+        border: 1px solid #ddd;
+        padding-left:15px;
+        padding-top:15px;
+        box-sizing: border-box;
+        background:white;
+        left: -125px;
+        top: -125px;
+        display:none;
+    }
+    .bc .sp1{
+        position:absolute;
+        bottom:6px;
+        font-size: 12px;
+        left:7px;
+    }
+    .bc .sp2{
+        position:absolute;
+        bottom:6px;
+        font-size: 12px;
+        right:21px;
+    }
+    .bc img:nth-of-type(1){
+        float:left;
+        margin-right:15px;
+    }
+    .weibo{
+        float:left;
+        width:82px;
+        height:80px;
+        position:relative;
+    }
+    .weibo .wb{
+        width:60px;
+        height:60px;
+        background:url('../images/icons.png') no-repeat -1024px -322px;
+
+    }
+    .weibo p{
+        position:absolute;
+        bottom:-8px;
+        left:0px;
+    }
+    .wchat{
+        float:left;
+        width:82px;
+        height:80px;
+        position:relative;
+    }
+    .wchat .wc{
+        width:60px;
+        height:60px;
+        background:url('../images/icons.png') no-repeat -1024px -66px;
+    }
+    .wchat p{
+        position:absolute;
+        bottom:-8px;
+        left:0px;
+    }
+    .foot_left{
+        float:left;
+        width:100px;
+        height:80px;
+        background:url('../images/index.png');
+    }
+    .foot_right{
+        width:970px;
+        height:80px;
+        margin:0 auto;
+        padding-top:7px;
+        padding-left:20px;
+        box-sizing:border-box;
+    }
+    .foot_right p{
+        font-size:12px;
+        line-height:20px;
+    }
+    .foot_right i{
+        position:relative;
+        bottom:-4px;
+        display:inline-block;
+        width:16px;
+        height:16px;
+        background:url('../images/icons.png');
+        background-position: -1367px -89px;
+    }
+    .foot_right img{
+        position:relative;
+        bottom:-5px;
+    }
+    .foot_right a{
+        opacity: 0.5;
+        display:inline-block
+    }
+    .foot_right a:hover{
+        opacity: 1;
+        color:black;
+    }
+    .foot_fo{
+        position:relative;
+    }
+    .img1 ,.img2{
+        cursor:pointer;
+    }
+    .img2{
+        position:absolute;
+        left:0px;
+        display:none;
+    }
